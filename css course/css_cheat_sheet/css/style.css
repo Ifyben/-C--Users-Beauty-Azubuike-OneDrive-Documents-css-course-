@@ -19,6 +19,23 @@ body{
     margin: 0;
 }  
 
+a{
+    text-decoration: none; 
+    color: brown;
+}
+
+a:hover{
+    color: blue;
+}
+
+a:active{
+    color: green;
+}
+
+/*a:visited{
+    color: black;  
+}*/
+
 .container{
     width: 80%;  
     margin: auto;
@@ -32,8 +49,58 @@ body{
     border-left: 5px red solid;
     border-top: 5px red solid;
     border-bottom: 5px red solid; 
-/*you can also simply do border: 5px red solid*/
     border-width: 3px; 
     border-bottom-width: 10px; 
     border-top-style: dotted; 
+
+    border: 5px red solid; 
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+
+    /* Same as above*/
+    padding: 20px;
+
+    margin-top: 20px;
+    margin: 20px 0; 
+}
+
+.box-1 h1{
+    font-family: Tahoma;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em; 
+    word-spacing: 1em; 
+}
+
+.box-2{
+    border: 3px dotted red; 
+    padding: 20px;
+    margin: 20px 0; 
+}
+
+.categories{
+    border: 1px red solid;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.categories h2{
+    text-align: center;
+}
+
+.categories ul{
+    padding: 0; 
+    /*list-style: square; or list-style: none*/
+    list-style: none
+}
+
+.categories li{
+    padding-bottom: 8px;
+    border-bottom: dotted 1px brown;
+    list-style-image: url('../images/check.png.png');  
 }
